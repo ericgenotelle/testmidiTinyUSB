@@ -13,7 +13,7 @@ void setup() {
   delay(300);
 
   TinyUSBDevice.setManufacturerDescriptor("PIO");
-  TinyUSBDevice.setProductDescriptor("[MIDI] DIY Handpan");
+  TinyUSBDevice.setProductDescriptor("[MIDI] DIY Handpan1");
   MidiUsb.begin(MIDI_CHANNEL_OMNI);
   // Serial.println("Midi USB setup done");
 }
